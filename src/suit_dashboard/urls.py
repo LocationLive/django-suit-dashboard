@@ -4,7 +4,7 @@
 
 from __future__ import unicode_literals
 
-from django.conf.urls import url
+from django.urls import re_path as url
 
 
 def get_realtime_urls(admin_view_func=lambda x: x):
